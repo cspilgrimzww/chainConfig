@@ -35,3 +35,11 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# eth-net-intelligence-api
+eth-net-intelligence-api
+eth-net-intelligence-api/*
+
+# datadir
+datadir
+datadir/*
