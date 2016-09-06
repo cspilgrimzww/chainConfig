@@ -1,0 +1,28 @@
+[
+  {
+    "name"              : "Intelligence",
+    "cwd"               : "/root/eth-net-intelligence-api/",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "log_file"          : "/root/eth-net-intelligence-api/logs/node-app-log.log",
+    "out_file"          : "/root/eth-net-intelligence-api/logs/node-app-out.log",
+    "error_file"        : "/root/eth-net-intelligence-api/logs/node-app-err.log",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "Bank Of China",
+      "RPC_HOST"        : "127.0.0.1",
+      "RPC_PORT"        : "8545",
+      "LISTENING_PORT"  : "30303",
+      "INSTANCE_NAME"   : "Bank Of China",
+      "CONTACT_DETAILS" : "I am a lonely node",
+      "WS_SERVER"       : "http://localhost:3000",
+      "WS_SECRET"       : "My sweet secret",
+      "VERBOSITY"       : 2
+    }
+  }
+]
