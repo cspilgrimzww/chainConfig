@@ -1,12 +1,12 @@
 [
   {
     "name"              : "Intelligence1",
-    "cwd"               : "/home/satoshi/chainConfig/eth-net-intelligence-api/",
+    "cwd"               : "../eth-net-intelligence-api/",
     "script"            : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",
-    "log_file"          : "/home/satoshi/chainConfig/eth-net-intelligence-api/logs/node-app-log.log",
-    "out_file"          : "/home/satoshi/chainConfig/eth-net-intelligence-api/logs/node-app-out.log",
-    "error_file"        : "/home/satoshi/chainConfig/eth-net-intelligence-api/logs/node-app-err.log",
+    "log_file"          : "../eth-net-intelligence-api/logs/node-app-log.log",
+    "out_file"          : "../eth-net-intelligence-api/logs/node-app-out.log",
+    "error_file"        : "../eth-net-intelligence-api/logs/node-app-err.log",
     "merge_logs"        : false,
     "watch"             : false,
     "max_restarts"      : 10,
@@ -20,7 +20,7 @@
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "Bank Of Hyper",
       "CONTACT_DETAILS" : "Hyperchain's powerful node",
-      "WS_SERVER"       : "http://120.55.69.169:3000",
+      "WS_SERVER"       : "http://127.0.0.1:3000",
       "WS_SECRET"       : "My sweet secret",
       "VERBOSITY"       : 2
     }
